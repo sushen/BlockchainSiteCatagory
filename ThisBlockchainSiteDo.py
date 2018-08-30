@@ -1,8 +1,9 @@
 import webbrowser
+import ctypes
 
 #coinmarketcap.com, hitbtc.com, localbitcoins.com, sushenbiswas.com
 
-website = 'sushenbiswas.com'
+website = ''
 
 if website == 'coinmarketcap.com':
     webbrowser.open('http://coinmarketcap.com')
@@ -21,4 +22,6 @@ elif website == 'sushenbiswas.com':
     print("sushenbiswas is a crypto currency Tutorial site.")
 
 else:
-    print(" You type Some thing Wrong!")
+    def Mbox(title, text, style):
+        return ctypes.windll.user32.MessageBoxW(0, text, title, style)
+    Mbox('Attention', 'You type Some thing Wrong! \nYou need to enter commented site to learn Crypto currency. \nThose are coinmarketcap.com, hitbtc.com, localbitcoins.com, sushenbiswas.com', 1)

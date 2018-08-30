@@ -19,7 +19,7 @@ elif website == 'localbitcoins.com':
 
 elif website == 'sushenbiswas.com':
     webbrowser.open('http://sushenbiswas.com')
-    print("sushenbiswas is a crypto currency Tutorial site.")
+    print("SushenBiswas is a crypto currency Tutorial site.")
 
 else:
     def Mbox(title, text, style):

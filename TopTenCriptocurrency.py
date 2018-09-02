@@ -18,5 +18,4 @@ print(lowercase_cripto)
 print(uppercase_Cripto)
 print(topCriptoIndex)
 
-
 print(topCripto)
